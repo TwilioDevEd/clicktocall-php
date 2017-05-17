@@ -1,0 +1,25 @@
+{
+    "name": "TwilioDevEd/clicktocall-php",
+    "description": "Use Twilio to create SMS alerts so that you never miss a critical issue.",
+    "keywords": ["twilio", "SMS", "server", "notifications"],
+    "require": {
+        "php": ">=5.4",
+        "twilio/sdk": "^5.7"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vendor\\Package\\": "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
