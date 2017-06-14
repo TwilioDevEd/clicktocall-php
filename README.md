@@ -65,6 +65,6 @@ Step-by-step on how to deploy, configure and develop on this example app.
 
 ## Meta
 
- * No warranty expressed or implied. Software is as-is. Diggity.
+ * No warranty expressed or implied. Software is as is. Diggity.
  * [MIT License](http://www.opensource.org/licenses/mit-license.html)
  * Lovingly crafted by Twilio Developer Education.
