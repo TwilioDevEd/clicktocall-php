@@ -52,7 +52,7 @@ Step-by-step on how to deploy, configure and develop on this example app.
 ### Expose the Application to the Wider Internet
 
 1. Expose your application to the wider internet using [ngrok](http://ngrok.com).
-   You can click[here](#expose-the-application-to-the-wider-internet)
+   You can click [here](#expose-the-application-to-the-wider-internet)
    for more details. This step is important because the application won't
    work as expected if you run it through localhost.
 
