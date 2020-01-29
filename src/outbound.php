@@ -1,16 +1,16 @@
 <?php
 require '../vendor/autoload.php';
-use \Twilio\Twiml;
+use Twilio\TwiML\VoiceResponse;
 
 $queryArgs = array();
 parse_str($_SERVER['QUERY_STRING'], $queryArgs);
 
 $salesPhone = $queryArgs['sales_phone'];
 
-$twiml = new Twiml();
-$twiml->say('Thanks for contacting our sales department. Our next available
+$response = new VoiceResponse();
+$response->say('Thanks for contacting our sales department. Our next available
 representative will take your call');
+$response->dial($salesPhone);
 
-$twiml->dial($salesPhone);
-
-print_r((string)$twiml);
+print_r((string)$response);
+?>
