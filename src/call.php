@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 use \Twilio\Rest\Client;
 
 $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__, 1));

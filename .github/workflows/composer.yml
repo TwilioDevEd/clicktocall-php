@@ -17,10 +17,10 @@ jobs:
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-    # - name: Execute tests (Unit and Feature tests) via PHPUnit
-    #   env:
-    #     TWILIO_ACCOUNT_SID: ACXXXX
-    #     TWILIO_AUTH_TOKEN: xxxxxx
-    #     TWILIO_NUMBER: phone_number
-    #   run: |
-    #     vendor/bin/phpunit
+    - name: Execute tests (Unit and Feature tests) via PHPUnit
+      env:
+        TWILIO_ACCOUNT_SID: ACXXXX
+        TWILIO_AUTH_TOKEN: xxxxxx
+        TWILIO_NUMBER: phone_number
+      run: |
+        bin/phpunit tests
