@@ -2,6 +2,9 @@
 require '../vendor/autoload.php';
 use \Twilio\Rest\Client;
 
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__, 1));
+$dotenv->load();
+
 if (!empty($_POST) ){
     // Get form input
     $userPhone = $_POST['userPhone'];

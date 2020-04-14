@@ -4,6 +4,8 @@
 
 # Click to Call PHP
 
+![](https://github.com/TwilioDevEd/clicktocall-php/workflows/Composer/badge.svg)
+
 > We are currently in the process of updating this sample template. If you are encountering any issues with the sample, please open an issue at [github.com/twilio-labs/code-exchange/issues](https://github.com/twilio-labs/code-exchange/issues) and we'll try to help you.
 
 An application example implementing Click to Call using Twilio.
@@ -22,18 +24,9 @@ Step-by-step on how to deploy, configure and develop on this example app.
      $ git clone git://github.com/TwilioDevEd/clicktocall-php.git
     ```
 
-1. Setup your environment variables
-
-   Are you using a bash shell? Use echo $SHELL to find out. For a bash
-   shell, edit the ~/.bashrc or ~/.bashprofile file and add:
-
-   ```sh
-    export TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxx
-    export TWILIO_AUTH_TOKEN=yyyyyyyyyyyyyyyyy
-    export TWILIO_NUMBER=+15556667777
-   ```
-
-   Or just export the same variables for this session.
+1. Copy the `.env.example` file to `.env`, and edit it including your credentials
+   for the Twilio API (found at https://www.twilio.com/user/account/settings). You
+   will also need a [Twilio Number](https://www.twilio.com/user/account/phone-numbers/incoming).
 
 1. Install the dependencies with [Composer](https://getcomposer.org/).
 
@@ -45,7 +38,7 @@ Step-by-step on how to deploy, configure and develop on this example app.
 
    ```bash
    $ php -S localhost:3000 -t ./src
-   ```   
+   ```
 
 1. [Expose the application to the wider internet](#expose-the-application-to-the-wider-internet)
 
@@ -68,5 +61,6 @@ Step-by-step on how to deploy, configure and develop on this example app.
 ## Meta
 
  * No warranty expressed or implied. Software is as is. Diggity.
+ * The CodeExchange repository can be found [here](https://github.com/twilio-labs/code-exchange/).
  * [MIT License](http://www.opensource.org/licenses/mit-license.html)
  * Lovingly crafted by Twilio Developer Education.
