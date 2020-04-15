@@ -36,7 +36,7 @@
                     <label>Your number</label>
                     <div class="form-group">
                        <input class="form-control" type="text" name="userPhone" id="userPhone"
-                              placeholder="(651) 555-7889">
+                              placeholder="(651) 555-7889" required>
                     </div>
                     <label>Sales team number</label>
                     <div class="form-group">
