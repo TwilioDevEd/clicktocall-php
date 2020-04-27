@@ -8,7 +8,7 @@
 
 An application example implementing Click to Call using Twilio.
 
-[Read the full tutorial here](https://www.twilio.com/docs/tutorials/walkthrough/click-to-call/php)!
+[Read the full tutorial here](https://www.twilio.com/docs/voice/tutorials/click-to-call-php-laravel)!
 
 ## Installation
 
