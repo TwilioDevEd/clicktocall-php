@@ -12,7 +12,7 @@
 
 An application example implementing Click to Call using Twilio.
 
-[Read the full tutorial here](https://www.twilio.com/docs/voice/tutorials/click-to-call-php-laravel)!
+[Read the full tutorial here](https://www.twilio.com/docs/voice/tutorials/click-to-call)!
 
 Implementations in other languages:
 
